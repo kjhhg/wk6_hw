@@ -1,4 +1,4 @@
-let $ = require('jquery');
+import $  from 'jquery' ;
 
 $(document).ready(function () {
 	// when a hanburger menu is clicked
