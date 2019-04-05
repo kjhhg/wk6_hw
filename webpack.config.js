@@ -5,7 +5,7 @@ module.exports = {
     output:{
         path: path.join(__dirname, './dist'),
         filename: 'bundle.js',
-        publicPath: './dist/'
+        publicPath: './dist'
     },
     module:{
         rules:[{
@@ -19,12 +19,12 @@ module.exports = {
             }
         },
         {
-            test:/ \.(jpe?g|png|gif|svg)$/,
+            test:/\.(jpe?g|png|gif|svg)$/,
             use:[
                 {
                     loader:'url-loader',
                     options:{
-                        limit:40000,
+                        limit:100000,
                         outputPath:'./images'
                     }
                 },
