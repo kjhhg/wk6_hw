@@ -342,10 +342,10 @@ template {
 /* Custom Fonts */
 @font-face {
 	font-family: 'PTSans';
-	src: 	url(./distcss/fonts/PT-Sans.eot);
-   	src: 	url(./distcss/fonts/PT-Sans.eot?#iefix) format('embedded-opentype'),
-			url(./distcss/fonts/PT-Sans.woff) format('woff'),
-			url(./distcss/fonts/PT-Sans.ttf) format('truetype'),
+	src: 	url(css/fonts/PT-Sans.eot);
+   	src: 	url(css/fonts/PT-Sans.eot?#iefix) format('embedded-opentype'),
+			url(css/fonts/PT-Sans.woff) format('woff'),
+			url(css/fonts/PT-Sans.ttf) format('truetype'),
 			url(data:image/svg+xml;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjc3MvZm9udHMvUFQtU2Fucy5zdmciOw==#pt_sansregular) format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -353,10 +353,10 @@ template {
 
 @font-face {
 	font-family: 'PTSans';
-	src: 	url(./distcss/fonts/PT-Sans-Bold.eot);
-   	src: 	url(./distcss/fonts/PT-Sans-Bold.eot?#iefix) format('embedded-opentype'),
-			url(./distcss/fonts/PT-Sans-Bold.woff) format('woff'),
-			url(./distcss/fonts/PT-Sans-Bold.ttf) format('truetype'),
+	src: 	url(css/fonts/PT-Sans-Bold.eot);
+   	src: 	url(css/fonts/PT-Sans-Bold.eot?#iefix) format('embedded-opentype'),
+			url(css/fonts/PT-Sans-Bold.woff) format('woff'),
+			url(css/fonts/PT-Sans-Bold.ttf) format('truetype'),
 			url(data:image/svg+xml;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjc3MvZm9udHMvUFQtU2Fucy1Cb2xkLnN2ZyI7#pt_sansbold) format('svg');
 	font-weight: bold;
 	font-style: normal;
@@ -364,10 +364,10 @@ template {
 
 @font-face {
 	font-family: 'PTSans';
-	src: 	url(./distcss/fonts/PT-Sans-Italic.eot);
-   	src: 	url(./distcss/fonts/PT-Sans-Italic.eot?#iefix) format('embedded-opentype'),
-			url(./distcss/fonts/PT-Sans-Italic.woff) format('woff'),
-			url(./distcss/fonts/PT-Sans-Italic.ttf) format('truetype'),
+	src: 	url(css/fonts/PT-Sans-Italic.eot);
+   	src: 	url(css/fonts/PT-Sans-Italic.eot?#iefix) format('embedded-opentype'),
+			url(css/fonts/PT-Sans-Italic.woff) format('woff'),
+			url(css/fonts/PT-Sans-Italic.ttf) format('truetype'),
 			url(data:image/svg+xml;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjc3MvZm9udHMvUFQtU2Fucy1JdGFsaWMuc3ZnIjs=#pt_sansitalic) format('svg');
 	font-weight: normal;
 	font-style: italic;
@@ -375,10 +375,10 @@ template {
 
 @font-face {
 	font-family: 'PTSans';
-	src: 	url(./distcss/fonts/PT-Sans-BoldItalic.eot);
-   	src: 	url(./distcss/fonts/PT-Sans-BoldItalic.eot?#iefix) format('embedded-opentype'),
-			url(./distcss/fonts/PT-Sans-BoldItalic.woff) format('woff'),
-			url(./distcss/fonts/PT-Sans-BoldItalic.ttf) format('truetype'),
+	src: 	url(css/fonts/PT-Sans-BoldItalic.eot);
+   	src: 	url(css/fonts/PT-Sans-BoldItalic.eot?#iefix) format('embedded-opentype'),
+			url(css/fonts/PT-Sans-BoldItalic.woff) format('woff'),
+			url(css/fonts/PT-Sans-BoldItalic.ttf) format('truetype'),
 			url(data:image/svg+xml;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjc3MvZm9udHMvUFQtU2Fucy1Cb2xkSXRhbGljLnN2ZyI7#pt_sansbold_italic) format('svg');
 	font-weight: bold;
 	font-style: italic;
