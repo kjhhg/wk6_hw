@@ -7,7 +7,7 @@ module.exports = {
     output:{
         path: path.join(__dirname, './dist'),
         filename: 'bundle.[chunkhash].js',
-        publicPath: './dist'
+
     },
     module:{
         rules:[{
@@ -53,10 +53,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('./css/style.css'),
+        new ExtractTextPlugin('css/style.css'),
         new HtmlWebpackPlugin({
             template:'assets/index.html',
-            favicon:'assets/images/favicon.ico'
         })
     ]
 
