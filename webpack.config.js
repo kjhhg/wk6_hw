@@ -33,6 +33,16 @@ module.exports = {
             ]
         },
         {
+            test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+            use: {
+               loader: 'file-loader',
+               options: {
+                  outputPath: 'css/fonts',
+                  name: '[name].[ext]',
+               },
+            }
+        },
+        {
             use: ExtractTextPlugin.extract({
                            use: 'css-loader'
                         }),
