@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode development"
+    "clean":"rimraf dist",
+    "watch":"webpack --watch --mode development",
+    "start":"npm run clean && webpack --mode development",
+    "build":"npm run clean && webpack --mode production"
   },
   "keywords": [],
   "author": "",
