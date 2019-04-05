@@ -5,7 +5,7 @@ module.exports = {
     entry: './assets/js/script.js',
     output:{
         path: path.join(__dirname, './dist'),
-        filename: 'bundle.js',
+        filename: 'bundle.[chunkhash].js',
         publicPath: './dist'
     },
     module:{
