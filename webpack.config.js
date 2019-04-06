@@ -44,11 +44,18 @@ module.exports = {
             }
         },
         {
+            test: /\.css$/,
             use: ExtractTextPlugin.extract({
-                           use: 'css-loader'
-                        }),
-                        // use: ['style-loader', 'css-loader'],
-                     test: /\.css$/
+                use: [{
+                    loader:'css-loader',
+                    options:{
+                          url:false
+                    }
+                },
+                {
+                    loader:'postcss-loader'
+                }]
+            }),                    
          }
         ]
     },
