@@ -3,8 +3,19 @@
 	color: #FFF;
 	background-color: #405c71;
 	position: relative;
+
+	&__title{
+		margin: 0;
+		font-weight: normal;
+		font-size: 165%;
+	}
+	
+	&__slogan{
+		font-size: 90%;
+	}
 }
 
+/*
 .header__title {
 	margin: 0;
 	font-weight: normal;
@@ -14,3 +25,4 @@
 .header__slogan {
 	font-size: 90%;
 }
+*/
