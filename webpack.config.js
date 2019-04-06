@@ -53,7 +53,7 @@ module.exports = {
                     }
                 },
                 {
-                    loader:'postcss-losder'
+                    loader:'postcss-loader'
                 }]
             }),                    
          }
