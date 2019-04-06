@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean":"rimraf dist",
-    "watch":"webpack --watch --mode development",
-    "start":"npm run clean && webpack --mode development",
-    "build":"npm run clean && webpack --mode production"
+    "clean": "rimraf dist",
+    "watch": "webpack --watch --mode development",
+    "start": "npm run clean && webpack --mode development",
+    "build": "npm run clean && webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +29,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.6.0",
     "rimraf": "^2.6.3",
-    "url-loader": "^1.1.2"
+    "url-loader": "^1.1.2",
+    "webpack-dev-server": "^3.2.1"
   }
 }
